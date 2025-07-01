@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "956993481950",
+    "project_id": "myappbao",
+    "storage_bucket": "myappbao.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:956993481950:android:10cb0dc5450065591d664f",
+        "android_client_info": {
+          "package_name": "com.example.newsappproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5KT_lvYAQrDf1_ynhOQ3w1MepTaKyIyc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

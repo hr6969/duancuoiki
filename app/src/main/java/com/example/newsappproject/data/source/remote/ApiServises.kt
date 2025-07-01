@@ -20,6 +20,6 @@ interface ApiServises {
         @Query("page")
         pageNumber: Int = 1,
         @Query("apiKey")
-        apiKey: String = Constants.API_KEY
+        apiKey: String = "b28e142420c84d648fd2cc9b3733ff3e"
     ): Response<ResponseTopHeadLine>
 }

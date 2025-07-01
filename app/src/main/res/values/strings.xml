@@ -1,6 +1,5 @@
 <resources>
-    <string name="app_name">RNEWS</string>
-    <!-- TODO: Remove or change this placeholder text -->
+    <string name="app_name">PPNEWS</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="share">Share News</string>
     <string name="snackbar_undo">Undo</string>
@@ -33,7 +32,8 @@
     <string name="data_privacy">Data Privacy Terms</string>
     <string name="terms">Terms and Conditions</string>
     <string name="sign_out">Sign Out</string>
-    <string name="client_id">YOUR_CLIEND_ID</string>
+    <string name="client_id">YOUR_CLIENT_ID</string>
+    <string name="title_News">News</string>
 
 
 </resources>

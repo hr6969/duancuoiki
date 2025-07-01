@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PPNEWS</string>
+    <string name="hello_blank_fragment">Xin chào blank fragment</string>
+    <string name="share">Chia sẻ tin</string>
+    <string name="snackbar_undo">Hoàn tác</string>
+    <string name="successfully_deleted_message">Xóa thành công!</string>
+
+    <string name="home_toolbar">Tin mới nhất</string>
+    <string name="category">Khám phá</string>
+    <string name="hot_news">TIN NỔI BẬT</string>
+    <string name="technology">CÔNG NGHỆ</string>
+    <string name="sport">THỂ THAO</string>
+    <string name="finance">TÀI CHÍNH</string>
+    <string name="science">KHOA HỌC</string>
+    <string name="cinema">ĐIỆN ẢNH</string>
+    <string name="life">ĐỜI SỐNG</string>
+    <string name="game">TRÒ CHƠI</string>
+    <string name="politics">CHÍNH TRỊ</string>
+    <string name="fashion">THỜI TRANG &amp; LÀM ĐẸP</string>
+    <string name="culture">VĂN HÓA &amp; NGHỆ THUẬT</string>
+
+    <string name="news_detail">Chi tiết tin</string>
+    <string name="save_toolbar">Tin đã lưu</string>
+    <string name="search_toolbar">Tìm kiếm tin tức</string>
+
+    <string name="settings">Cài đặt</string>
+    <string name="general">Chung</string>
+    <string name="leave_feedback">Gửi phản hồi!</string>
+    <string name="leave_feedback2">Hãy cho chúng tôi biết bạn cảm thấy thế nào về ứng dụng!</string>
+    <string name="themes">Đổi giao diện</string>
+    <string name="language">Ngôn ngữ</string>
+    <string name="language2">Bạn có thể thay đổi ngôn ngữ từ cài đặt thiết bị.</string>
+    <string name="faq">Câu hỏi thường gặp</string>
+    <string name="agreement">Thỏa thuận</string>
+    <string name="data_privacy">Chính sách quyền riêng tư</string>
+    <string name="terms">Điều khoản và Điều kiện</string>
+    <string name="sign_out">Đăng xuất</string>
+    <string name="client_id">YOUR_CLIENT_ID</string>
+</resources>

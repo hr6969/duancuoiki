@@ -78,7 +78,7 @@ class SearchFragment : Fragment() {
 
                 else -> {
                     it.message?.let { message ->
-                        Toast.makeText(context, "arama yapılmadı", Toast.LENGTH_LONG).show()
+                        Toast.makeText(context, "no search made", Toast.LENGTH_LONG).show()
 
                     }
                 }

@@ -120,7 +120,7 @@ class LoginFragment : Fragment() {
             if (email.isNotEmpty()) {
                 sendPasswordResetEmail(email)
             } else {
-                Toast.makeText(context, "Lütfen e-posta adresinizi girin", Toast.LENGTH_SHORT)
+                Toast.makeText(context, "Check your email", Toast.LENGTH_SHORT)
                     .show()
             }
         }
@@ -136,11 +136,11 @@ class LoginFragment : Fragment() {
         auth.sendPasswordResetEmail(email)
             .addOnCompleteListener { task ->
                 if (task.isSuccessful) {
-                    Toast.makeText(context, "Şifre sıfırlama isteği gönderildi", Toast.LENGTH_SHORT)
+                    Toast.makeText(context, "request sent", Toast.LENGTH_SHORT)
                         .show()
                     diolog.dismiss()
                 } else {
-                    Toast.makeText(context, "Hata: ${task.exception?.message}", Toast.LENGTH_SHORT)
+                    Toast.makeText(context, "eror: ${task.exception?.message}", Toast.LENGTH_SHORT)
                         .show()
                 }
             }

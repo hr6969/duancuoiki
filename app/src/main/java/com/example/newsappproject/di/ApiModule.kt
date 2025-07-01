@@ -6,6 +6,7 @@ import com.example.newsappproject.BuildConfig
 import com.example.newsappproject.data.source.local.NewsDao
 import com.example.newsappproject.data.source.local.NewsDatabase
 import com.example.newsappproject.data.source.remote.ApiServises
+import com.example.newsappproject.util.constants.Constants
 import com.example.newsappproject.util.constants.Constants.API_KEY
 import com.example.newsappproject.util.constants.Constants.BASE_URL
 import com.example.newsappproject.util.constants.Constants.NETWORK_TIMEOUT
@@ -50,7 +51,7 @@ object ApiModule {
             val url = chain.request()
                 .url
                 .newBuilder()
-                .addQueryParameter("apiKey", API_KEY)
+                .addQueryParameter("apiKey", "b28e142420c84d648fd2cc9b3733ff3e")
                 .build()
 
             val request = chain.request()
@@ -76,7 +77,7 @@ object ApiModule {
     @Singleton
     fun provideRetrofit(baseUrl: String, gson: Gson, client: OkHttpClient): ApiServises =
         Retrofit.Builder()
-            .baseUrl(baseUrl)
+            .baseUrl(Constants.BASE_URL)
             .client(client)
             .addConverterFactory(GsonConverterFactory.create(gson))
             .build()
